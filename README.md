@@ -1,17 +1,19 @@
-# CMPT371 A3 - Connect Four (Networked GUI)
+# CMPT371 A3 - Connect Four
 
 ## Student Info
 - Name: **Kentaro Yamada (SOLO)**
 - Student ID: **301634837**
 - Student Email: **kya94@sfu.ca**
 
+## Video Demo Link
+https://youtu.be/wyWKxfGL1_Y
 
 ## Project Title & Description
 This is a simple 2‑player **Connect Four** game using Python sockets. The **server** keeps the board and turn. The **client GUI** sends moves and shows the board. Messages are **JSON Lines** (one JSON per line).
 
 ## Architecture
 - **Server**: board, turn, win/draw, broadcast state
-- **Client (GUI)**: send moves, render board and UI
+- **Client**: send moves, render board and UI
 
 ## Protocol (Simple)
 Client → Server:
@@ -78,9 +80,6 @@ After you click **Connect**, wait for the other player. When both player icons s
 - `assets/p2.png`: player 2 profile image
 
 
-
-## Video Demo Link
-https://youtu.be/wyWKxfGL1_Y
 
 ## AI Reference
 This project used AI assistance (Chat GPT) for code reference and wording support.
