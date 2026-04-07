@@ -84,6 +84,9 @@ After you click **Connect**, wait for the other player. When both player icons s
 ## AI Reference
 This project used AI assistance (Chat GPT) for code reference and wording support.
 
+## AI Audio generetor
+https://elevenlabs.io/
+
 ## Image Credits
 Player images were downloaded from a copyright‑free source:
 ```
