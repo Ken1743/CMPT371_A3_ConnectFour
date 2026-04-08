@@ -30,6 +30,14 @@ Server → Client:
 - No external libraries
 - `tkinter` is needed for GUI (usually included with Python on macOS/Windows)
 
+### Environment Notes
+- **macOS / Windows**: tkinter is usually included with the official Python installer.
+  If the GUI does not open, reinstall Python from the official site.
+- **Linux**: tkinter may not be installed by default.
+  Example installs:
+  - Debian/Ubuntu: `sudo apt-get install python3-tk`
+  - Fedora: `sudo dnf install python3-tkinter`
+
 ### 1. Check Python
 ```bash
 python --version
@@ -67,6 +75,7 @@ After you click **Connect**, wait for the other player. When both player icons s
 - Only 2 players (3rd connection will be rejected)
 - Game state is in memory only (server restart resets game)
 - If a player disconnects, the game resets
+- GUI behavior can differ by OS/window manager
 
 ## Files
 - `server.py`: game server
